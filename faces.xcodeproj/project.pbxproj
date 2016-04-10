@@ -13,6 +13,21 @@
 		DB13011A1CB53AC7007BA381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1301181CB53AC7007BA381 /* Main.storyboard */; };
 		DB13011C1CB53AC7007BA381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB13011B1CB53AC7007BA381 /* Assets.xcassets */; };
 		DB13011F1CB53AC7007BA381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB13011D1CB53AC7007BA381 /* LaunchScreen.storyboard */; };
+		DB13012B1CB53C8F007BA381 /* FaceKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DB13012A1CB53C8F007BA381 /* FaceKey.m */; };
+		DB13012D1CB55024007BA381 /* freeios7.com_apple_wallpaper_city-blur_iphone4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB13012C1CB55024007BA381 /* freeios7.com_apple_wallpaper_city-blur_iphone4.jpg */; };
+		DB13012F1CB5692E007BA381 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13012E1CB5692E007BA381 /* GoogleMobileAds.framework */; };
+		DB1301311CB5694F007BA381 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301301CB5694F007BA381 /* AdSupport.framework */; };
+		DB1301331CB56958007BA381 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301321CB56958007BA381 /* AudioToolbox.framework */; };
+		DB1301351CB5695D007BA381 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301341CB5695D007BA381 /* AVFoundation.framework */; };
+		DB1301371CB56968007BA381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301361CB56968007BA381 /* CoreGraphics.framework */; };
+		DB1301391CB5696E007BA381 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301381CB5696E007BA381 /* CoreMedia.framework */; };
+		DB13013B1CB56979007BA381 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13013A1CB56979007BA381 /* CoreTelephony.framework */; };
+		DB13013D1CB56984007BA381 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13013C1CB56984007BA381 /* EventKit.framework */; };
+		DB13013F1CB56990007BA381 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13013E1CB56990007BA381 /* EventKitUI.framework */; };
+		DB1301411CB5699C007BA381 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301401CB5699C007BA381 /* MediaPlayer.framework */; };
+		DB1301431CB569A1007BA381 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301421CB569A1007BA381 /* MessageUI.framework */; };
+		DB1301451CB569AA007BA381 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301441CB569AA007BA381 /* StoreKit.framework */; };
+		DB1301471CB569B0007BA381 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1301461CB569B0007BA381 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,22 @@
 		DB13011B1CB53AC7007BA381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB13011E1CB53AC7007BA381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB1301201CB53AC7007BA381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1301291CB53C8F007BA381 /* FaceKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceKey.h; sourceTree = "<group>"; };
+		DB13012A1CB53C8F007BA381 /* FaceKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceKey.m; sourceTree = "<group>"; };
+		DB13012C1CB55024007BA381 /* freeios7.com_apple_wallpaper_city-blur_iphone4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "freeios7.com_apple_wallpaper_city-blur_iphone4.jpg"; sourceTree = "<group>"; };
+		DB13012E1CB5692E007BA381 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		DB1301301CB5694F007BA381 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DB1301321CB56958007BA381 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DB1301341CB5695D007BA381 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB1301361CB56968007BA381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1301381CB5696E007BA381 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB13013A1CB56979007BA381 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DB13013C1CB56984007BA381 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DB13013E1CB56990007BA381 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		DB1301401CB5699C007BA381 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB1301421CB569A1007BA381 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DB1301441CB569AA007BA381 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DB1301461CB569B0007BA381 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1301471CB569B0007BA381 /* SystemConfiguration.framework in Frameworks */,
+				DB1301451CB569AA007BA381 /* StoreKit.framework in Frameworks */,
+				DB1301431CB569A1007BA381 /* MessageUI.framework in Frameworks */,
+				DB1301411CB5699C007BA381 /* MediaPlayer.framework in Frameworks */,
+				DB13013F1CB56990007BA381 /* EventKitUI.framework in Frameworks */,
+				DB13013D1CB56984007BA381 /* EventKit.framework in Frameworks */,
+				DB13013B1CB56979007BA381 /* CoreTelephony.framework in Frameworks */,
+				DB1301391CB5696E007BA381 /* CoreMedia.framework in Frameworks */,
+				DB1301371CB56968007BA381 /* CoreGraphics.framework in Frameworks */,
+				DB1301351CB5695D007BA381 /* AVFoundation.framework in Frameworks */,
+				DB1301331CB56958007BA381 /* AudioToolbox.framework in Frameworks */,
+				DB1301311CB5694F007BA381 /* AdSupport.framework in Frameworks */,
+				DB13012F1CB5692E007BA381 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +86,19 @@
 		DB1301031CB53AC7007BA381 = {
 			isa = PBXGroup;
 			children = (
+				DB1301461CB569B0007BA381 /* SystemConfiguration.framework */,
+				DB1301441CB569AA007BA381 /* StoreKit.framework */,
+				DB1301421CB569A1007BA381 /* MessageUI.framework */,
+				DB1301401CB5699C007BA381 /* MediaPlayer.framework */,
+				DB13013E1CB56990007BA381 /* EventKitUI.framework */,
+				DB13013C1CB56984007BA381 /* EventKit.framework */,
+				DB13013A1CB56979007BA381 /* CoreTelephony.framework */,
+				DB1301381CB5696E007BA381 /* CoreMedia.framework */,
+				DB1301361CB56968007BA381 /* CoreGraphics.framework */,
+				DB1301341CB5695D007BA381 /* AVFoundation.framework */,
+				DB1301321CB56958007BA381 /* AudioToolbox.framework */,
+				DB1301301CB5694F007BA381 /* AdSupport.framework */,
+				DB13012E1CB5692E007BA381 /* GoogleMobileAds.framework */,
 				DB13010E1CB53AC7007BA381 /* faces */,
 				DB13010D1CB53AC7007BA381 /* Products */,
 			);
@@ -58,6 +115,8 @@
 		DB13010E1CB53AC7007BA381 /* faces */ = {
 			isa = PBXGroup;
 			children = (
+				DB13012C1CB55024007BA381 /* freeios7.com_apple_wallpaper_city-blur_iphone4.jpg */,
+				DB1301261CB53BCB007BA381 /* Keyboard */,
 				DB1301121CB53AC7007BA381 /* AppDelegate.h */,
 				DB1301131CB53AC7007BA381 /* AppDelegate.m */,
 				DB1301151CB53AC7007BA381 /* ViewController.h */,
@@ -77,6 +136,15 @@
 				DB1301101CB53AC7007BA381 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1301261CB53BCB007BA381 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DB1301291CB53C8F007BA381 /* FaceKey.h */,
+				DB13012A1CB53C8F007BA381 /* FaceKey.m */,
+			);
+			name = Keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +207,7 @@
 				DB13011F1CB53AC7007BA381 /* LaunchScreen.storyboard in Resources */,
 				DB13011C1CB53AC7007BA381 /* Assets.xcassets in Resources */,
 				DB13011A1CB53AC7007BA381 /* Main.storyboard in Resources */,
+				DB13012D1CB55024007BA381 /* freeios7.com_apple_wallpaper_city-blur_iphone4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB13012B1CB53C8F007BA381 /* FaceKey.m in Sources */,
 				DB1301171CB53AC7007BA381 /* ViewController.m in Sources */,
 				DB1301141CB53AC7007BA381 /* AppDelegate.m in Sources */,
 				DB1301111CB53AC7007BA381 /* main.m in Sources */,
@@ -265,10 +335,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = faces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.faces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -276,10 +352,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = faces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duyquang.faces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +384,7 @@
 				DB1301251CB53AC7007BA381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

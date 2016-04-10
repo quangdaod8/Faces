@@ -1,25 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IMm-Vt-ER3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Faces-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkZ-6i-5Jo">
+                                <rect key="frame" x="38" y="64" width="245" height="368"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="freeios7.com_apple_wallpaper_city-blur_iphone4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6xF-2d-Geh">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="368"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axm-XF-Wuy" customClass="FaceKey">
+                                        <rect key="frame" x="17" y="54" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3Y-ea-8Ak">
+                                        <rect key="frame" x="8" y="338" width="66" height="30"/>
+                                        <state key="normal" title="Your_Text">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnLeftAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agQ-hr-O64"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhU-01-QEM">
+                                        <rect key="frame" x="171" y="338" width="66" height="30"/>
+                                        <state key="normal" title="Your_Text">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnRightAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Bo-Dj-zOY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfS-aX-IJU" customClass="FaceKey">
+                                        <rect key="frame" x="163" y="54" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnF-Oj-bJ7" customClass="FaceKey">
+                                        <rect key="frame" x="90" y="127" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAS-Lq-fB2" customClass="FaceKey">
+                                        <rect key="frame" x="17" y="127" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWz-Eg-osI" customClass="FaceKey">
+                                        <rect key="frame" x="163" y="127" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NR-zI-XtZ" customClass="FaceKey">
+                                        <rect key="frame" x="90" y="54" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-W5-Oca" customClass="FaceKey">
+                                        <rect key="frame" x="90" y="200" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmy-C1-UJ0" customClass="FaceKey">
+                                        <rect key="frame" x="17" y="200" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TW7-y0-us1" customClass="FaceKey">
+                                        <rect key="frame" x="163" y="200" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPq-rJ-YSR" customClass="FaceKey">
+                                        <rect key="frame" x="90" y="273" width="65" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6s-fL-s28">
+                                        <rect key="frame" x="8" y="0.0" width="229" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2ao-3d-qql"/>
+                                            <constraint firstAttribute="width" constant="229" id="TG9-FP-JaF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Your_Text">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnTitleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIm-xc-v3D"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="o o o o" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjM-jp-pnB">
+                                        <rect key="frame" x="75" y="23" width="95" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="4E5-TH-Nl3"/>
+                                    <constraint firstAttribute="bottom" secondItem="xhU-01-QEM" secondAttribute="bottom" id="GD4-A2-is5"/>
+                                    <constraint firstItem="h6s-fL-s28" firstAttribute="top" secondItem="mkZ-6i-5Jo" secondAttribute="top" id="Gse-zc-uwr"/>
+                                    <constraint firstItem="u3Y-ea-8Ak" firstAttribute="leading" secondItem="mkZ-6i-5Jo" secondAttribute="leading" constant="8" id="RGZ-A2-HUu"/>
+                                    <constraint firstItem="h6s-fL-s28" firstAttribute="centerX" secondItem="mkZ-6i-5Jo" secondAttribute="centerX" id="aWy-53-vEw"/>
+                                    <constraint firstAttribute="bottom" secondItem="u3Y-ea-8Ak" secondAttribute="bottom" id="hAS-MW-Qmd"/>
+                                    <constraint firstAttribute="height" constant="368" id="igx-Vw-xdM"/>
+                                    <constraint firstAttribute="trailing" secondItem="xhU-01-QEM" secondAttribute="trailing" constant="8" id="nYY-Qg-jpR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hzj-TV-4D3" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="aCd-0B-GXh"/>
+                                    <constraint firstAttribute="height" constant="50" id="ypB-4C-L0R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mkZ-6i-5Jo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="11m-aD-rDZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hzj-TV-4D3" secondAttribute="bottom" id="L71-cT-XaP"/>
+                            <constraint firstItem="Hzj-TV-4D3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MQr-Ft-2YB"/>
+                            <constraint firstItem="mkZ-6i-5Jo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="a8l-Nd-yeM"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Faces" id="63d-5S-UgL">
+                        <barButtonItem key="backBarButtonItem" title=" " id="lFl-H4-Do4"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="banner" destination="Hzj-TV-4D3" id="mVP-Ht-ZPR"/>
+                        <outlet property="btn0" destination="cPq-rJ-YSR" id="BLQ-hP-Rus"/>
+                        <outlet property="btn1" destination="Axm-XF-Wuy" id="Nbp-V0-Th6"/>
+                        <outlet property="btn2" destination="0NR-zI-XtZ" id="uvf-Ku-Cy3"/>
+                        <outlet property="btn3" destination="DfS-aX-IJU" id="ZnF-t1-wPW"/>
+                        <outlet property="btn4" destination="YAS-Lq-fB2" id="yIS-m6-gvK"/>
+                        <outlet property="btn5" destination="pnF-Oj-bJ7" id="MWq-dn-u56"/>
+                        <outlet property="btn6" destination="FWz-Eg-osI" id="cCS-DT-zbh"/>
+                        <outlet property="btn7" destination="bmy-C1-UJ0" id="ANr-ke-TJ3"/>
+                        <outlet property="btn8" destination="Iip-W5-Oca" id="E4M-ka-JOh"/>
+                        <outlet property="btn9" destination="TW7-y0-us1" id="Jp6-lt-SwL"/>
+                        <outlet property="btnLeft" destination="u3Y-ea-8Ak" id="qrY-Q6-mMn"/>
+                        <outlet property="btnRight" destination="xhU-01-QEM" id="131-Cg-kAn"/>
+                        <outlet property="btnTitle" destination="h6s-fL-s28" id="cEm-kS-sSa"/>
+                        <outlet property="faceView" destination="mkZ-6i-5Jo" id="HYb-zV-nSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1243" y="313"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="atL-3L-CzF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IMm-Vt-ER3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rop-UC-FR0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qrU-gA-R3i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfF-6F-VH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843" y="313"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="freeios7.com_apple_wallpaper_city-blur_iphone4.jpg" width="640" height="960"/>
+    </resources>
 </document>
